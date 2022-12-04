@@ -3,7 +3,7 @@ import { AuthProvider, useAuth } from '@w3ui/react-keyring'
 import { UploaderProvider } from '@w3ui/react-uploader'
 import { UploadsListProvider } from '@w3ui/react-uploads-list'
 import ContentPage from './ContentPage'
-import logo from './logo.png'
+import logo from './logo.jpg'
 
 function App () {
   return (
@@ -12,6 +12,7 @@ function App () {
         <UploadsListProvider>
         <IdentityLoader>
           <div className='flex flex-column justify-center items-center sans-serif light-silver'>
+            <h1>Snap! Snap!</h1>
             <header>
               <img src={logo} width='250' alt='logo' />
             </header>
