@@ -1,4 +1,4 @@
-# Using web3.storage to store data of camera snaps.
+# Snap! Snap ! is a project which uses w3 upload api to store your cute selfies onto web3.storage
 
 Prerequisites:
 Install web3.storage cli by using the below command 
